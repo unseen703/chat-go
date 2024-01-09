@@ -31,7 +31,7 @@ const io = new Server.Server(server, {
   pingTimeout: 60000,
   cors: {
     // listing site
-    origin: 'http://localhost:3000',
+    origin: 'https://astonishing-elf-ae6e2c.netlify.app/',
   },
 });
 io.on('connection', (socket) => {

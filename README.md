@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://football-dimes.herokuapp.com">
+  <a href="https://astonishing-elf-ae6e2c.netlify.app/">
     Chat Go
   </a>
 </h1>

@@ -1,0 +1,91 @@
+
+
+/* @media screen and (min-width: '2000px') {
+    .Profile {
+        width: '30vw';
+        /* height: '100vh'; */
+    /* } */
+/* } */
+/* @media screen and (max-width: '1150px') {
+    .Profile {
+        width: '30vw';
+        height: '100%';
+    }
+} */
+/* @media screen and (max-width: '650px') {
+    .Profile {
+        width: '100vw';
+    }
+} */
+/*@media screen and (max-width: '400px') {
+    .Profile {
+        width: '100%';
+    }
+} */
+
+/* Default styles for larger screens */
+.Profile {
+    width: 30%;
+    height: 100%;
+  }
+  
+  
+  @media only screen and (max-width: 1150px) {
+    .Profile {
+      width: 50%;  
+    }
+  }
+  /* Media query for tablets (portrait and landscape)  */
+  @media only screen and (max-width: 650px) {
+    .Profile {
+      width: 100%;  
+    }
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-page-visible {
+      display: block;
+      z-index: 30;
+      position: absolute;
+    }
+    .chat-page-hide {
+      display: none;
+      /* z-index: 10; */
+      /* position: absolute; */
+    }
+    /* .chat-page-div {
+        width: 100%;
+      }
+      .chat-list-div {
+        width: 100%;
+        z-index: 20;
+      } */
+      .chat-list-div {
+        min-width: 100%;
+        z-index: 20;
+        /* position: absolute; */
+      }
+      
+      .chat-page-div {
+       min-width: 100%;
+       /* display: none; */
+      }
+
+      
+
+  }
+  /* Media query for mobile devices (portrait and landscape) */
+  @media only screen and (max-width: 350px) {
+    .Profile {
+      width: 100%; /* Take full width on mobile devices */
+    }
+    
+  }
+
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

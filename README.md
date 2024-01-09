@@ -13,6 +13,8 @@ Real-Time Chat Website with MERN Stack, Socket.io, Redux Toolkit, and Tailwind C
   <strong><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /></strong>
 </p>
 
+![individual chat](https://github.com/unseen703/chatgo/assets/103515582/701ce69d-5de8-4a8a-9e7d-c1e5f27f090b)
+
 ## 🗂 Project Breakdown
     
 ### 1. API Server (Backend)

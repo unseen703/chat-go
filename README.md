@@ -23,7 +23,7 @@ Directory server
     
 *Chat Go backend supports the following API endpoints:*
 
-View the complete API documentation <a href="https://github.com/unseen703/chatgo_temp/edit/main/README.md">here</a>.
+View the complete API documentation <a href="https://github.com/unseen703/chat-go/blob/main/README.md">here</a>.
 
 #### Chat Routes:
 

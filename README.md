@@ -93,10 +93,10 @@ In the first terminal
 - cd client and create a .env file in the root of your client directory.
 - Supply the following credentials
 
-
+```
 REACT_APP_CLIENT_ID = ""
 REACT_APP_SERVER_URL=
-
+```
 
 To obtain your Google ClientID for authentication, follow these steps:
 
@@ -112,26 +112,26 @@ To obtain your Google ClientID for authentication, follow these steps:
 
 6. Copy the Client ID and assign it to the variable REACT_APP_GOOGLE_CLIENT_ID in your .env file.
 
-
+```
 $ cd clients
 $ npm install (to install client-side dependencies)
 $ npm start (to start the client)
-
+```
 In the second terminal
 - cd server and create a .env file in the root of your server directory.
 - Supply the following credentials
 
-
+```
 MONGO_URL = 
 PORT = 5000 
 JWT_SECRET = 
 GOOGLE_CLIENT_ID = 
+```
 
 
-
-
+```
 $ cd server
 $ npm install (to install server-side dependencies)
-& npm start (to start the server)
-
+$ npm start (to start the server)
+```
 (If running "npm i" fails, after deleting the package.json file, you can use "npm init" to initialize a new npm project and then manually install all dependencies.)
